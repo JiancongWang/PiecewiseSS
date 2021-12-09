@@ -104,10 +104,10 @@ if __name__ == "__main__":
     # Data options
     parser.add_argument('--datadir', default='./data',
                         help='Data path for data')
-    parser.add_argument('--valdir', default='./val2',
+    parser.add_argument('--valdir', default='./val',
                         help='Data path for validation result')
     
-    parser.add_argument('--resume', type=str, default="./results2/model_0.pth",
+    parser.add_argument('--resume', type=str, default="./ckpt/model.pth",
                         help='Checkpoint file to resume')
     
     # Training options
